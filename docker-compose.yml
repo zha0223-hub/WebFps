@@ -7,8 +7,8 @@ services:
       dockerfile: ./Dockerfile  # Lieu du dockerfile, par rapport au context
       args:       # Permet au front d'avoir les adresses ip du front et du back
         VITE_FRONT_URI: webfps
-        VITE_BACK_URL: https://charles.studi0426.com/webfps-back/
-        VITE_BACK_WS: wss://charles.studi0426.com/webfps-socket/
+        VITE_BACK_URL: https://charles.ostudio426.com/webfps-back/
+        VITE_BACK_WS: wss://charles.ostudio426.com/webfps-socket/
     image: charles/webfps:frontend
     restart: always
     ports:
